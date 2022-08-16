@@ -1,0 +1,322 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+* {-webkit-box-sizing: border-box;box-sizing: border-box;}
+
+body {
+background-color:166,133;
+  font-family: "arima", georgia;
+  color:63, 63;
+  font-weight:undefined;
+  font-size:undefined;
+  line-height: 1.5;
+  /*sets the line height to 1.5*/;
+  margin:undefined;
+}
+
+header {
+  font-family: "cinzel decorative", georgia ;
+  color:63, 63;
+  font-weight:undefined;
+  font-size:undefined;
+  padding:undefined;
+  margin:undefined;
+}
+
+p {
+  font-weight:undefined;
+  font-size:undefined;
+  }
+
+
+a { color:undefined}
+
+a:hover, a:focus {
+  /* No underlining when hovering over a link */
+  text-decoration: none;
+}
+
+a:visited {
+  /* visited link */
+  color:undefined;
+}
+
+a:active {
+  /* selected link */
+  color:undefined;
+}
+
+ 
+.button {
+  /* overwrites browser defaults and resets the border */
+  border:1px;
+  display: inline-block;
+  /* takes the font from the outer container */
+  font-family: inherit;
+  /* styles the background color, font color, and text decoration (underline, etc.) of the button */
+  background-color:undefined;
+  color: undefined;
+  text-decoration: none;
+  /*adds spacing to the button (this will be discussed more in-depth later) */
+  padding:undefined;
+  border-radius: 3px ;
+  /* gives the button a bottom border with a width of 2px, a type of solid, and a color in RGBA format */
+  border-bottom: undefined;
+  /* adds an opacity transition */
+  -webkit-transition-duration: 2s;
+       -o-transition-duration: 2s;
+          transition-duration: 2s;
+  -webkit-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+  
+}
+
+ 
+button {
+  /* overwrites browser defaults and resets the border */
+  border:1px;
+  display: inline-block;
+  /* takes the font from the outer container */
+  font-family: inherit;
+  /* styles the background color, font color, and text decoration (underline, etc.) of the button */
+  background-color:undefined;
+  color: undefined;
+  text-decoration: none;
+  /*adds spacing to the button (this will be discussed more in-depth later) */
+  padding:undefined;
+  border-radius: 3px ;
+  /* gives the button a bottom border with a width of 2px, a type of solid, and a color in RGBA format */
+  border-bottom: undefined;
+  /* adds an opacity transition */
+  -webkit-transition-duration: 2s;
+       -o-transition-duration: 2s;
+          transition-duration: 2s;
+  -webkit-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+  
+}
+
+.button {
+  display: block;
+  position: relative;
+  left: 45%;
+  min-width: 100px;
+  max-width: 175px;
+}
+ 
+.button:hover {
+  /* lets the mouse appear as a hand when hovering over the button */
+  cursor:undefined;
+  /* reduces the opacity of the button to 80% */
+  opacity: 0.8;
+}
+ 
+.button:focus {
+  /* lets the mouse appear as a hand when hovering over the button */
+  cursor:undefined;
+  /* reduces the opacity of the button to 80% */
+  opacity: 0.8;
+}
+ 
+button:hover {
+  /* lets the mouse appear as a hand when hovering over the button */
+  cursor:undefined;
+  /* reduces the opacity of the button to 80% */
+  opacity: 0.8;
+}
+ 
+button:focus {
+  /* lets the mouse appear as a hand when hovering over the button */
+  cursor:undefined;
+  /* reduces the opacity of the button to 80% */
+  opacity: 0.8;
+}
+
+.navigation-list__item--active {
+  text-decoration: none;
+}
+
+.navigation-list, .navigation-list li  {
+  list-style-type: none;
+
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.navigation-list__item:hover {
+  /* lets the mouse appear as a hand when hoveriong */
+  cursor:undefined;
+  /* changes color of the text when hovering*/
+  color:undefined;
+}
+
+.navigation-list__item:focus {
+  /* lets the mouse appear as a hand when hoveriong */
+  cursor:undefined;
+  /* changes color of the text when hovering*/
+  color:undefined;
+}
+
+.profile { 
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.profile__portrait { 
+  float: left;
+  min-width: 250px;
+  max-width: 500px;
+  margin-right: 50px;
+  border-radius: 50%;
+}
+
+.about-me { 
+  display: inline-flexbox;
+  text-align: center;
+
+}
+
+.skill-table {
+display: inline-block;
+max-width: 50%;
+padding:undefined;
+}
+
+.page__footer { 
+  clear: both;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex ;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  text-align: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+} 
+
+.page-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding:undefined;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border:undefined;
+}
+
+.page-header__item { 
+  -ms-flex-preferred-size: auto; 
+      flex-basis: auto;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 150px;
+          flex: 0 1 150px;
+}
+
+.page-header__item:last-child {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  text-align: right;
+}
+
+.grid{ 
+  background-color:undefined;
+  display:-ms-grid;
+  display:grid;
+  -ms-grid-columns: 1fr 30px 1fr 30px 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+  margin: 30px;
+  padding:undefined;
+}
+
+.contact-info { 
+  display: -webkit-box; 
+  display: -ms-flexbox; 
+  display: flex;
+  width: 100% ; 
+}
+
+.contact-info__item{ 
+  -ms-flex-preferred-size: 50%; 
+      flex-basis: 50%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  margin:undefined;
+  padding:undefined;
+}
+
+.contact-info__form { 
+  -ms-flex-preferred-size: 50%; 
+      flex-basis: 50%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  margin:undefined;
+  padding:undefined;
+}
+
+@media all and (max-width: 500px) {
+  .grid {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+}
+@media all and (min-width: 500px) and (max-width: 750px){
+  .grid {
+    -ms-grid-columns: 1fr 30px 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media all and (max-width: 750px){
+  .grid {
+    grid-gap: 10px;
+  }
+  
+  .grid__item:last-child {
+    grid-column: auto / auto;
+    grid-row: auto / auto;
+  }
+  h1 {
+    font-size: 22px;
+  }
+}
+
+@-webkit-keyframes fade {
+0% {opacity: 1;}
+100% {opacity: 0;}
+}
+
+@keyframes fade {
+0% {opacity: 1;}
+100% {opacity: 0;}
+}
+
+.P-text{ 
+  -webkit-animation: 5s fade infinite alternate linear; 
+          animation: 5s fade infinite alternate linear;
+  display:inline-block;
+}
+
+.skyline{ 
+  display: block;
+  position: relative;
+  left: 33%;
+  max-width: 500px;}
