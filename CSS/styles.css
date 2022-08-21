@@ -145,7 +145,7 @@ max-width: 50%;
 padding:var(--padding-5);
 }
 
-.page__footer { 
+.page-footer { 
   clear: both;
   display:flex ;
   flex-flow: column;

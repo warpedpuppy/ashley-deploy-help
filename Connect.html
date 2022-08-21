@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   
 <head>
   <meta charset="utf-8">
@@ -10,17 +10,14 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Arima:wght@200;400;700&
-    family=Cinzel+Decorative:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arima:wght@200;400;700&family=Cinzel+Decorative:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="CSS/styles.production.css">
 </head>
 <header class="page-header">
-    <img src="IMG/Logo/AS-PL.png" heigh="100x100" width="100x100" 
+    <img src="IMG/Logo/AS-PL.png" height="100" width="100" 
     class="page-header__item"
-    alt="a logo with a sunset in the background, 
-    bold text that consists of my name, 
-    and handwritten font at the bottom stating web developer" >
-    <nav class="main-navigation page-header__item"></nav>
+    alt="a logo with a sunset in the background, bold text that consists of my name, followed by web developer" >
+    <nav class="main-navigation page-header__item">
       <ul role="menubar" class="navigation-list">
         <li role="presentation"> 
             <a href="index.html" role="menuitem" class="navigation-list__item navigation-list__item--active"> Home </a> </li>
@@ -32,9 +29,9 @@
             <a href="connect.html" role="menuitem" class="navigation-list__item"> Connect </a> </li>
         
         <li role="presentation">
-          <a href="work.html" role="menuitem" class="navigation-list__item"> My work</a> </li>
-      </ul> 
-  </nav> 
+          <a href="work.html" role="menuitem" class="navigation-list__item"> My work </a> </li>
+      </ul>
+    </nav>   
 </header>
 <body>
   <div class="contact-info">
@@ -51,12 +48,12 @@
       </div>
       <div class="contact-info__form" >  
         <h2> Send me a message </h2>
-        <form action="" method="post" id="contact-info__form">
+        <form method="post" id="contact-info__form">
           <label class="standard-label" for="contact-email">E-mail: </label>
           <input type="email" required id="contact-email"
           pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"> <br>
           <label class="stardard-label" for="contact-tel">Telephone: </label>
-          <input type="number" pattern="\d{3}[\-]\d{3}[\-]\d{4}" id="contact-tel"> <br>
+          <input type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}" id="contact-tel"> <br>
           <label class="standard-label" for="contact-message" >Message: </label>
           <textarea maxlength="240" required id="contact-message"></textarea> <br>
           <button>submit</button>
@@ -66,25 +63,29 @@
     </div>
 </body>
 <!--footer containing social media icons-->
-<footer class="page__footer">
+<footer class="page-footer">
   <p> Find me </p>
   <div> 
-    <a href="https://codepen.io/x-lamprocapnos-x" target="_blank">
-      <!--Codepen Logo-->
-      <img src="IMG/SVG/Codepen.svg" alt="Codepen icon" height="50x60" width="50x50">
-    </a>
-    <a href="https://github.com/x-lamprocapnos-x" target="_blank">
-      <!--Github Logo-->
-      <img src="IMG/SVG/Github.svg" alt="Github icon" height="50x50" width="50x50">
-    </a>
-    <a href="https://www.instagram.com/_lamprocapnos_/" target="_blank">
-      <!--Instagram Logo-->
-      <img src="IMG/SVG/Insta.svg" alt="Instagram icon" height="50x50" width="50x50">
-    </a>
-    <a href="https://twitter.com/_lamprocapnos_" target="_blank">
-      <!--Twitter Logo-->
-      <img src="IMG/SVG/Twitter.svg" alt="Twitter icon" height="50x50" width="50x50">
-    </a>
+        <!--Codepen Link-->
+      <a href="https://codepen.io/x-lamprocapnos-x" target="_blank">
+          <!--Codepen Logo-->
+          <img src="IMG/SVG/Codepen.svg" alt="Codepen icon" height="50" width="50">
+      </a>
+          <!--Github Link-->    
+      <a href="https://github.com/x-lamprocapnos-x" target="_blank">
+          <!--Github Logo-->
+          <img src="IMG/SVG/Github.svg" alt="Github icon" height="50" width="50">
+      </a>
+          <!--Intagram Link-->
+      <a href="https://www.instagram.com/_lamprocapnos_/" target="_blank">
+          <!--Instagram Logo-->
+          <img src="IMG/SVG/Insta.svg" alt="Instagram icon" height="50" width="50">
+      </a>
+          <!--Twitter Link-->
+      <a href="https://twitter.com/_lamprocapnos_" target="_blank">
+          <!--Twitter Logo-->
+          <img src="IMG/SVG/Twitter.svg" alt="Twitter icon" height="50" width="50">
+      </a>
   </div>
 </footer>
 </html>
