@@ -142,15 +142,16 @@ button:hover,button:focus {
 }
 
 .about-me {
-	display: inline-flex;
+	display: inline-block;
 	text-align: center;
 
 }
 
 .skill-table {
-	display: inline-block;
+	display: block;
 	max-width: 50%;
 	padding: var(--padding-5);
+	justify-content: space-around;
 }
 
 
@@ -166,7 +167,7 @@ button:hover,button:focus {
 
 .page-header__item {
 	flex-basis: auto;
-	flex: 1 1 150px;
+	flex: 0 1 150px;
 }
 
 .page-header__item:last-child {
@@ -175,7 +176,7 @@ button:hover,button:focus {
 }
 
 .page-main { 
-	display: flex;
+	display: inline-flex;
 	width: 100%;
 	padding: var(--padding-10);
 	margin: var(--margin-5);
