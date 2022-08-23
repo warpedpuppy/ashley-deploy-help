@@ -83,7 +83,6 @@ a:active {
 
 }
 
-
 button {
 	/* overwrites browser defaults and resets the border */
 	border: 1px;
@@ -197,7 +196,6 @@ button:focus {
 	-ms-flex-pack: distribute;
 	    justify-content: space-around;
 }
-
 
 .page-header {
 	display: -webkit-box;
