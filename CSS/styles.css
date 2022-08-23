@@ -166,12 +166,28 @@ button:hover,button:focus {
 
 .page-header__item {
 	flex-basis: auto;
-	flex: 0 1 150px;
+	flex: 1 1 150px;
 }
 
 .page-header__item:last-child {
 	flex-grow: 1;
 	text-align: right;
+}
+
+.page-main { 
+	display: flex;
+	width: 100%;
+	padding: var(--padding-10);
+	margin: var(--margin-5);
+	justify-content: space-around;
+}
+
+.page-footer {
+	clear: both;
+	display: flex;
+	flex-flow: column;
+	text-align: center;
+	justify-content: space-around;
 }
 
 .grid {
@@ -251,10 +267,3 @@ button:hover,button:focus {
 	max-width: 500px;
 }
 
-.page-footer {
-	clear: all;
-	display: fixed;
-	flex-flow: column;
-	text-align: center;
-	justify-content: space-around;
-}
